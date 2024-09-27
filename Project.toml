@@ -1,7 +1,29 @@
 name = "JuliaTransformerLens"
 authors = ["Harry Booth"]
-[compat]
-julia = "1.8.2"
-DrWatson = "2.12.1"
+
 [deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Einsum = "b7d42ee7-0b51-5a75-98ca-779d3107e4c0"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ImageShow = "4e3cecfd-b093-5904-9786-8bbb286a6a31"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Lux = "b2108857-7c20-44ae-9111-449ecde12c47"
+LuxCUDA = "d0bbae9a-e099-4d5b-a835-1c6931763bda"
+LuxCore = "bb33d45b-7691-41d6-9220-0943567d0623"
+Metal = "dde4c033-4e86-420c-a63e-0dd931031962"
+NNlib = "872c559c-99b0-510c-b3b7-b6c96a88d5cd"
+NamedDims = "356022a1-0364-5f58-8944-0da4b18d706f"
+Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+TensorCast = "02d47bb6-7ce6-556a-be16-bb1710789e2b"
+TensorOperations = "6aa20fa7-93e2-5fca-9bc0-fbd0db3c71a2"
+WeightInitializers = "d49dbf32-c5c2-4618-8acc-27bb2598ef2d"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[compat]
+DrWatson = "2.12.1"
+julia = "1.8.2"
